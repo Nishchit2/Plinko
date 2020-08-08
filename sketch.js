@@ -50,7 +50,7 @@ function draw(){
         plinkos[i].display();
     }
 
-    if (frameCount%0.5===0){
+    if (frameCount%60===0){
         particles.push(new Particles(random(width/2-50,width/2+50),10,10));
     }
 
